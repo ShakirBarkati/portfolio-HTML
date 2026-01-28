@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Remixicon CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link href="./output.css" rel="stylesheet" />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <main
+      class="contain-content bg-purple-100 w-full h-screen flex flex-col p-5 gap-5 overflow-hidden"
+    >
+      <!-- Header Start -->
+      <div class="bg-purple-300 rounded-3xl shrink-0">
+        <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+          <header class="flex items-center justify-between py-4 md:py-8">
+            <!-- logo - start -->
+            <a
+              href="/"
+              class="inline-flex items-center gap-2.5 text-xl font-light text-black md:text-xl"
+              aria-label="logo"
+            >
+              SHAKIR<span class="font-bold">BARKATI</span>
+            </a>
+            <!-- logo - end -->
+
+            <!-- nav - start -->
+            <nav class="hidden gap-12 lg:flex">
+              <a
+                href="#"
+                class="text-sm font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700"
+                >PROJECTS</a
+              >
+              <a
+                href="#"
+                class="text-sm font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700"
+              >
+                ABOUT
+              </a>
+              <a
+                href="#"
+                class="text-sm font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700"
+                >CONTACT</a
+              >
+            </nav>
+            <!-- nav - end -->
+          </header>
+        </div>
+      </div>
+      <!-- Header End -->
+
+      <!-- Body Area Start-->
+      <section class="grid grid-cols-12 flex-1 min-h-0">
+        <div id="left" class="col-span-7 flex flex-col gap-5 min-h-0">
+          <div id="leftTop" class="w-full flex-1 min-h-0 flex gap-5">
+            <div
+              id="leftTopLeft"
+              class="w-3/5 h-full bg-purple-300 rounded-3xl flex flex-col justify-between p-5 min-h-0"
+            >
+              <span class="w-full flex justify-end"
+                ><img
+                  src="./assets/img/flower-icon.png"
+                  alt=""
+                  class="w-1/6 h-auto"
+              /></span>
+              <p class="text-4xl pb-10">
+                <strong>Freelance Web</strong> Developer | Fast,
+                <strong>Scalable Solutions</strong>
+              </p>
+            </div>
+            <div id="leftTopRight" class="flex-1 min-h-0">
+              <img
+                src="./assets/img/shakirBarkati.png"
+                alt=""
+                class="object-cover object-center w-full h-full"
+              />
+            </div>
+          </div>
+          <div
+            id="leftBottom"
+            class="w-full flex-1 min-h-0 overflow-hidden flex gap-5"
+          >
+            <div
+              id="leftBottomLeft"
+              class="w-1/2 h-full bg-purple-300 overflow-y-auto p-4 rounded-3xl flex flex-col justify-between min-h-0"
+            >
+              <span class="w-full flex justify-end">
+                <img src="./assets/img/vector.png" alt="" class="w-1/12 h-auto"
+              /></span>
+
+              <p class="text-base text-black font-light">
+                I’m a Web Designer & Developer with 2–3 years of experience,
+                including 1.5 years at Creative Bird. I build fast,
+                SEO-friendly, and scalable websites using WordPress, HTML, CSS,
+                JavaScript, PHP, and React.
+              </p>
+            </div>
+            <div
+              id="leftBottomRight"
+              class="w-1/2 h-full bg-purple-300 overflow-y-auto p-4 rounded-3xl flex flex-col justify-between min-h-0"
+            >
+              <span class="w-full flex justify-between">
+                <p>Have some questions?</p>
+                <span class="h-10 w-10 border border-purple-100 rounded-full flex items-center justify-center">
+                  <i class="ri-arrow-right-up-line text-2xl font-light"></i>
+                </span>
+              </span>
+
+              <p class="text-base text-black font-light">
+                I’m a Web Designer & Developer with 2–3 years of experience,
+                including 1.5 years at Creative Bird. I build fast,
+                SEO-friendly, and scalable websites using WordPress, HTML, CSS,
+                JavaScript, PHP, and React.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="right" class="col-span-5 flex flex-col w-full min-h-0">
+          <div id="menu" class="w-full h-10/12 bg-fuchsia-500 min-h-0"></div>
+          <div id="menu" class="w-full flex-1 bg-amber-500 min-h-0"></div>
+        </div>
+      </section>
+      <!-- Body Area End-->
+    </main>
+  </body>
+</html>
